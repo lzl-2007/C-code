@@ -3,9 +3,20 @@
 class Animal{
     int num;
 public:
-    Animal(int a):num(a){}
+    Animal(int a):num(a){
+        if (num<0){
+            throw std::invalid_argument("不能是负数");
+        }
+    }
     virtual void print()const{
         std::cout<<num;
+    }
+    ~Animal(){
+        try{
+            std::cout<<num;
+        }catch(...){
+            std::cout<<"error";
+        }
     }
 };
 int main(){
@@ -16,9 +27,10 @@ int main(){
     a[2]=3;
     std::cout<<a[0];
     delete[] a;
-    Animal cat(1234);
+    Animal cat(-34);
     cat.print();
     auto p=std::make_unique<Animal>(12);
     p->print();
+    std::unique_ptr<int> p1=std::make_unique<int> (12);
     return 0;
 }
