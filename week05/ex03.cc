@@ -1,4 +1,5 @@
 #include<iostream>
+#include <memory> 
 class Animal{
     int num;
 public:
@@ -17,5 +18,7 @@ int main(){
     delete[] a;
     Animal cat(1234);
     cat.print();
+    auto p=std::make_unique<Animal>(12);
+    p->print();
     return 0;
 }
