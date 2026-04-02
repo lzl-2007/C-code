@@ -1,0 +1,6 @@
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
+project(week1_part2 LANGUAGES CXX VERSION 26.03.01)
+add_executable(clrmain.cpp)
+target_sources(clrmain PRIVATE clrmain.cc)
+target_compile_options(clrmain PUBLIC -std=c++23)
+target_link_libraries(clrmain PRIVATE stdc++exp)

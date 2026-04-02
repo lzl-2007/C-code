@@ -1,0 +1,7 @@
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
+project(change_me LANGUAGES CXX VERSION 26.03.01)
+add_executable(prime)
+target_sources(prime PRIVATE prime.cc)
+target_compile_features(prime PUBLIC cxx_std_23)
+target_compile_options(prime PUBLIC -Wall -Wextra -Wpedantic)
+target_link_libraries(prime PRIVATE stdc++exp)

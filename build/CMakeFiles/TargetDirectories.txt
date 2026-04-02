@@ -1,0 +1,9 @@
+C:/code/build/CMakeFiles/edit_cache.dir
+C:/code/build/CMakeFiles/rebuild_cache.dir
+C:/code/build/week01/part1/CMakeFiles/hello.dir
+C:/code/build/week01/part1/CMakeFiles/edit_cache.dir
+C:/code/build/week01/part1/CMakeFiles/rebuild_cache.dir
+C:/code/build/week02/ex01/CMakeFiles/main.dir
+C:/code/build/week02/ex01/CMakeFiles/week02hello.dir
+C:/code/build/week02/ex01/CMakeFiles/edit_cache.dir
+C:/code/build/week02/ex01/CMakeFiles/rebuild_cache.dir

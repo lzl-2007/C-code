@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/code/build/week01/part1",
+  "command": "C:\\mingw64\\mingw64\\bin\\g++.exe   -g -std=c++20 -o CMakeFiles\\hello.dir\\hello.cpp.obj -c C:\\code\\week01\\part1\\hello.cpp",
+  "file": "C:/code/week01/part1/hello.cpp",
+  "output": "week01/part1/CMakeFiles/hello.dir/hello.cpp.obj"
+},
+{
+  "directory": "C:/code/build/week02/ex01",
+  "command": "C:\\mingw64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -Wall -Wextra -Wpedantic -o CMakeFiles\\main.dir\\main.cc.obj -c C:\\code\\week02\\ex01\\main.cc",
+  "file": "C:/code/week02/ex01/main.cc",
+  "output": "week02/ex01/CMakeFiles/main.dir/main.cc.obj"
+},
+{
+  "directory": "C:/code/build/week02/ex01",
+  "command": "C:\\mingw64\\mingw64\\bin\\g++.exe   -g -std=c++23 -o CMakeFiles\\week02hello.dir\\week02hello.cc.obj -c C:\\code\\week02\\ex01\\week02hello.cc",
+  "file": "C:/code/week02/ex01/week02hello.cc",
+  "output": "week02/ex01/CMakeFiles/week02hello.dir/week02hello.cc.obj"
+}
+]

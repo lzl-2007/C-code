@@ -1,0 +1,4 @@
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
+project(ex05 LANGUAGES CXX VERSION 23)
+add_executable(3_13_5)
+add_executable(3_13_6)

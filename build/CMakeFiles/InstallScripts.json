@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/code/build/cmake_install.cmake",
+		"C:/code/build/week01/part1/cmake_install.cmake",
+		"C:/code/build/week02/ex01/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
