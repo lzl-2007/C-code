@@ -11,7 +11,7 @@ public:
     virtual void print()const{
         std::cout<<num;
     }
-    ~Animal(){
+    ~Animal()noexcept{
         try{
             std::cout<<num;
         }catch(...){
