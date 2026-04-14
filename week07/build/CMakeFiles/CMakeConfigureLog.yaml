@@ -1,0 +1,2278 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/mingw32-make.exe.com"
+    found: "C:/mingw64/mingw64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/"
+    found: "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/mingw64/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/code/week07/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/ar.com"
+    found: "C:/mingw64/mingw64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/ranlib.com"
+    found: "C:/mingw64/mingw64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/strip.com"
+    found: "C:/mingw64/mingw64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/ld.com"
+    found: "C:/mingw64/mingw64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/nm.com"
+    found: "C:/mingw64/mingw64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/objdump.com"
+    found: "C:/mingw64/mingw64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/objcopy.com"
+    found: "C:/mingw64/mingw64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/readelf.com"
+    found: "C:/mingw64/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/dlltool.com"
+    found: "C:/mingw64/mingw64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/addr2line.com"
+    found: "C:/mingw64/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/tapi.com"
+      - "C:/mingw64/mingw64/bin/tapi.exe"
+      - "C:/mingw64/mingw64/bin/tapi"
+      - "C:/mingw64/usr/bin/tapi.com"
+      - "C:/mingw64/usr/bin/tapi.exe"
+      - "C:/mingw64/usr/bin/tapi"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/LINGO12/tapi.com"
+      - "C:/LINGO12/tapi.exe"
+      - "C:/LINGO12/tapi"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/tapi.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/tapi.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/tapi"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/tapi"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/tapi"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/tapi"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/tapi.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/tapi.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/tapi"
+      - "C:/Users/lzl67/anaconda3/Library/bin/tapi.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/tapi.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/tapi"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/tapi"
+      - "C:/mingw15.2/mingw64/bin/tapi.com"
+      - "C:/mingw15.2/mingw64/bin/tapi.exe"
+      - "C:/mingw15.2/mingw64/bin/tapi"
+      - "C:/Users/lzl67/anaconda3/Scripts/tapi.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/tapi.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/tapi"
+      - "C:/Users/lzl67/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/tapi"
+      - "C:/Users/lzl67/.claude/backups/tapi.com"
+      - "C:/Users/lzl67/.claude/backups/tapi.exe"
+      - "C:/Users/lzl67/.claude/backups/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.3"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/gcc-ar-13.3.com"
+      - "C:/mingw64/mingw64/bin/gcc-ar-13.3.exe"
+      - "C:/mingw64/mingw64/bin/gcc-ar-13.3"
+      - "C:/mingw64/usr/bin/gcc-ar-13.3.com"
+      - "C:/mingw64/usr/bin/gcc-ar-13.3.exe"
+      - "C:/mingw64/usr/bin/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar-13.3"
+      - "C:/Windows/System32/gcc-ar-13.3.com"
+      - "C:/Windows/System32/gcc-ar-13.3.exe"
+      - "C:/Windows/System32/gcc-ar-13.3"
+      - "C:/Windows/gcc-ar-13.3.com"
+      - "C:/Windows/gcc-ar-13.3.exe"
+      - "C:/Windows/gcc-ar-13.3"
+      - "C:/Windows/System32/wbem/gcc-ar-13.3.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.3"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-13.3.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-13.3.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-13.3"
+      - "C:/Program Files/dotnet/gcc-ar-13.3.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.3.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.3"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.3.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.3.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.3"
+      - "C:/Program Files/nodejs/gcc-ar-13.3.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.3.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.3"
+      - "C:/LINGO12/gcc-ar-13.3.com"
+      - "C:/LINGO12/gcc-ar-13.3.exe"
+      - "C:/LINGO12/gcc-ar-13.3"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar-13.3.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar-13.3.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.3"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar-13.3"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar-13.3"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar-13.3.com"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar-13.3.exe"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar-13.3"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar-13.3"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar-13.3"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar-13.3.com"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar-13.3.exe"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar-13.3"
+      - "C:/mingw64/mingw64/bin/gcc-ar-13.com"
+      - "C:/mingw64/mingw64/bin/gcc-ar-13.exe"
+      - "C:/mingw64/mingw64/bin/gcc-ar-13"
+      - "C:/mingw64/usr/bin/gcc-ar-13.com"
+      - "C:/mingw64/usr/bin/gcc-ar-13.exe"
+      - "C:/mingw64/usr/bin/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files/nodejs/gcc-ar-13.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13"
+      - "C:/LINGO12/gcc-ar-13.com"
+      - "C:/LINGO12/gcc-ar-13.exe"
+      - "C:/LINGO12/gcc-ar-13"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar-13.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar-13.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar-13.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar-13.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar-13"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar-13.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar-13.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar-13"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar-13.com"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar-13.exe"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar-13"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar-13.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar-13.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar-13"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar-13.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar-13.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar-13"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar-13.com"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar-13.exe"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar-13"
+      - "C:/mingw64/mingw64/bin/gcc-ar13.com"
+      - "C:/mingw64/mingw64/bin/gcc-ar13.exe"
+      - "C:/mingw64/mingw64/bin/gcc-ar13"
+      - "C:/mingw64/usr/bin/gcc-ar13.com"
+      - "C:/mingw64/usr/bin/gcc-ar13.exe"
+      - "C:/mingw64/usr/bin/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files/nodejs/gcc-ar13.com"
+      - "C:/Program Files/nodejs/gcc-ar13.exe"
+      - "C:/Program Files/nodejs/gcc-ar13"
+      - "C:/Program Files/Git/cmd/gcc-ar13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar13"
+      - "C:/LINGO12/gcc-ar13.com"
+      - "C:/LINGO12/gcc-ar13.exe"
+      - "C:/LINGO12/gcc-ar13"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar13.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar13.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar13.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar13.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ar13"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar13.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar13.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ar13"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar13.com"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar13.exe"
+      - "C:/mingw15.2/mingw64/bin/gcc-ar13"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar13.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar13.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ar13"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar13.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar13.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ar13"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar13.com"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar13.exe"
+      - "C:/Users/lzl67/.claude/backups/gcc-ar13"
+      - "C:/mingw64/mingw64/bin/gcc-ar.com"
+    found: "C:/mingw64/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.3"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/gcc-ranlib-13.3.com"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib-13.3.exe"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib-13.3"
+      - "C:/mingw64/usr/bin/gcc-ranlib-13.3.com"
+      - "C:/mingw64/usr/bin/gcc-ranlib-13.3.exe"
+      - "C:/mingw64/usr/bin/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-13.3"
+      - "C:/Windows/System32/gcc-ranlib-13.3.com"
+      - "C:/Windows/System32/gcc-ranlib-13.3.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.3"
+      - "C:/Windows/gcc-ranlib-13.3.com"
+      - "C:/Windows/gcc-ranlib-13.3.exe"
+      - "C:/Windows/gcc-ranlib-13.3"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.3.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.3"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-13.3.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-13.3.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-13.3"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.3.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.3.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.3"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.3.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.3.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.3"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.3.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.3.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.3"
+      - "C:/LINGO12/gcc-ranlib-13.3.com"
+      - "C:/LINGO12/gcc-ranlib-13.3.exe"
+      - "C:/LINGO12/gcc-ranlib-13.3"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib-13.3.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib-13.3.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib-13.3"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib-13.3.com"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib-13.3.exe"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib-13.3"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib-13.3.com"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib-13.3.exe"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib-13.3"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib-13.com"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib-13.exe"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib-13"
+      - "C:/mingw64/usr/bin/gcc-ranlib-13.com"
+      - "C:/mingw64/usr/bin/gcc-ranlib-13.exe"
+      - "C:/mingw64/usr/bin/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13"
+      - "C:/LINGO12/gcc-ranlib-13.com"
+      - "C:/LINGO12/gcc-ranlib-13.exe"
+      - "C:/LINGO12/gcc-ranlib-13"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib-13"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib-13"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib-13.com"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib-13.exe"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib-13"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib-13"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib-13"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib-13.com"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib-13.exe"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib-13"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib13.com"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib13.exe"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib13"
+      - "C:/mingw64/usr/bin/gcc-ranlib13.com"
+      - "C:/mingw64/usr/bin/gcc-ranlib13.exe"
+      - "C:/mingw64/usr/bin/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files/nodejs/gcc-ranlib13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13"
+      - "C:/LINGO12/gcc-ranlib13.com"
+      - "C:/LINGO12/gcc-ranlib13.exe"
+      - "C:/LINGO12/gcc-ranlib13"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib13.com"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib13.com"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/gcc-ranlib13"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib13.com"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/anaconda3/Library/bin/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/gcc-ranlib13"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib13.com"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib13.exe"
+      - "C:/mingw15.2/mingw64/bin/gcc-ranlib13"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib13.com"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/anaconda3/Scripts/gcc-ranlib13"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib13.com"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/AppData/Roaming/npm/gcc-ranlib13"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib13.com"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib13.exe"
+      - "C:/Users/lzl67/.claude/backups/gcc-ranlib13"
+      - "C:/mingw64/mingw64/bin/gcc-ranlib.com"
+    found: "C:/mingw64/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/mingw64/mingw64/bin/"
+      - "C:/mingw64/usr/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/LINGO12/"
+      - "C:/Program Files/IBM/SPSS/Statistics/24/JRE/bin/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/lzl67/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/lzl67/Desktop/WindowsNoEditor/PythonAPI/carla/dist/"
+      - "C:/Users/lzl67/anaconda3/Library/bin/"
+      - "C:/Users/lzl67/AppData/Local/Python/bin/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/Users/lzl67/anaconda3/Scripts/"
+      - "C:/Users/lzl67/AppData/Roaming/npm/"
+      - "C:/Users/lzl67/.claude/backups/"
+      - "/mingw64/bin/"
+      - "/mingw64/sbin/"
+      - "/mingw64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/mingw15.2/mingw64/bin/"
+      - "C:/mingw15.2/mingw64/sbin/"
+      - "C:/mingw15.2/mingw64/"
+      - "C:/Program Files (x86)/ackermann/bin/"
+      - "C:/Program Files (x86)/ackermann/sbin/"
+      - "C:/Program Files (x86)/ackermann/"
+    searched_directories:
+      - "C:/mingw64/mingw64/bin/windres.com"
+    found: "C:/mingw64/mingw64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\mingw64\\bin"
+        - "C:\\mingw64\\usr\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:/Program Files/dotnet/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/LINGO12/"
+        - "C:\\Program Files\\IBM\\SPSS\\Statistics\\24\\JRE\\bin"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Python313/Scripts/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:/Users/lzl67/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/lzl67/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\lzl67\\Desktop\\WindowsNoEditor\\PythonAPI\\carla\\dist"
+        - "C:/Users/lzl67/anaconda3/Library/bin"
+        - "C:\\Users\\lzl67\\AppData\\Local\\Python\\bin"
+        - "C:/mingw15.2/mingw64/bin"
+        - "C:\\Users\\lzl67\\anaconda3\\Scripts"
+        - "C:/Users/lzl67/AppData/Roaming/npm"
+        - "C:\\Users\\lzl67\\.claude\\backups"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ackermann"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/mingw15.2/mingw64"
+        - "C:/Program Files (x86)/ackermann"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2"
+      binary: "C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2'
+        
+        Run Build Command(s): C:/mingw15.2/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_66cab/fast
+        C:/mingw64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66cab.dir\\build.make CMakeFiles/cmTC_66cab.dir/build
+        mingw32-make[1]: Entering directory 'C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2'
+        Building CXX object CMakeFiles/cmTC_66cab.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw15.2\\mingw64\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\mingw64\\mingw64\\bin\\g++.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_66cab.dir\\'
+         C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/ -D_REENTRANT C:\\mingw15.2\\mingw64\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_66cab.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccKyEK8i.s
+        GNU C++17 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) version 13.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0"
+        ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/backward"
+        ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/include"
+        ignoring nonexistent directory "R:/winlibs64_stage/inst_gcc-13.3.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc/include"
+        ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed"
+        ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/x86_64-w64-mingw32
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/backward
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 8915136fb7d6a10ae12e43e7402eb762
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_66cab.dir\\'
+         C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccKyEK8i.s
+        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.42
+        COMPILER_PATH=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/;C:/mingw64/mingw64/bin/../libexec/gcc/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/;C:/mingw64/mingw64/bin/../lib/gcc/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_66cab.exe
+        C:\\mingw15.2\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_66cab.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\mingw64\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) 
+        COMPILER_PATH=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/;C:/mingw64/mingw64/bin/../libexec/gcc/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/;C:/mingw64/mingw64/bin/../lib/gcc/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66cab.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66cab.'
+         C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/collect2.exe -plugin C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/liblto_plugin.dll -plugin-opt=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccUrt0z6.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66cab.exe C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0 -LC:/mingw64/mingw64/bin/../lib/gcc -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66cab.dir/objects.a --no-whole-archive --out-implib libcmTC_66cab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o
+        collect2 version 13.3.0
+        C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/liblto_plugin.dll -plugin-opt=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccUrt0z6.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66cab.exe C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0 -LC:/mingw64/mingw64/bin/../lib/gcc -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66cab.dir/objects.a --no-whole-archive --out-implib libcmTC_66cab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66cab.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66cab.'
+        C:\\mingw15.2\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_66cab.dir/objects.a
+        C:\\mingw64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_66cab.dir/objects.a @CMakeFiles\\cmTC_66cab.dir\\objects1.rsp
+        C:\\mingw64\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_66cab.dir/objects.a -Wl,--no-whole-archive -o cmTC_66cab.exe -Wl,--out-implib,libcmTC_66cab.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0]
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/x86_64-w64-mingw32]
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/backward]
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include]
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include]
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed]
+          add: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0] ==> [C:/mingw64/mingw64/include/c++/13.3.0]
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/x86_64-w64-mingw32] ==> [C:/mingw64/mingw64/include/c++/13.3.0/x86_64-w64-mingw32]
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/backward] ==> [C:/mingw64/mingw64/include/c++/13.3.0/backward]
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include] ==> [C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/include]
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include] ==> [C:/mingw64/mingw64/include]
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed] ==> [C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed]
+        collapse include dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/include] ==> [C:/mingw64/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/mingw64/mingw64/include/c++/13.3.0;C:/mingw64/mingw64/include/c++/13.3.0/x86_64-w64-mingw32;C:/mingw64/mingw64/include/c++/13.3.0/backward;C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/include;C:/mingw64/mingw64/include;C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed;C:/mingw64/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/mingw15.2/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_66cab/fast]
+        ignore line: [C:/mingw64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66cab.dir\\build.make CMakeFiles/cmTC_66cab.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/code/week07/build/CMakeFiles/CMakeScratch/TryCompile-tnuun2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_66cab.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw15.2\\mingw64\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\mingw64\\mingw64\\bin\\g++.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_66cab.dir\\']
+        ignore line: [ C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/ -D_REENTRANT C:\\mingw15.2\\mingw64\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_66cab.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccKyEK8i.s]
+        ignore line: [GNU C++17 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r1) version 13.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0"]
+        ignore line: [ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs64_stage/inst_gcc-13.3.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/mingw64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/x86_64-w64-mingw32]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include/c++/13.3.0/backward]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../include]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/include-fixed]
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 8915136fb7d6a10ae12e43e7402eb762]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_66cab.dir\\']
+        ignore line: [ C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccKyEK8i.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r1) 2.42]
+        ignore line: [COMPILER_PATH=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/]
+        ignore line: [C:/mingw64/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_66cab.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_66cab.exe]
+        ignore line: [C:\\mingw15.2\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_66cab.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\mingw64\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r1) ]
+        ignore line: [COMPILER_PATH=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/]
+        ignore line: [C:/mingw64/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66cab.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66cab.']
+        link line: [ C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/collect2.exe -plugin C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/liblto_plugin.dll -plugin-opt=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccUrt0z6.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66cab.exe C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0 -LC:/mingw64/mingw64/bin/../lib/gcc -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66cab.dir/objects.a --no-whole-archive --out-implib libcmTC_66cab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o]
+          arg [C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/mingw64/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\lzl67\\AppData\\Local\\Temp\\ccUrt0z6.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_66cab.exe] ==> ignore
+          arg [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o] ==> obj [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o]
+          arg [-LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0] ==> dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0]
+          arg [-LC:/mingw64/mingw64/bin/../lib/gcc] ==> dir [C:/mingw64/mingw64/bin/../lib/gcc]
+          arg [-LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib] ==> dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib]
+          arg [-LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../..] ==> dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_66cab.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_66cab.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o] ==> obj [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o]
+        linker tool for 'CXX': Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/mingw64/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o] ==> [C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o]
+        collapse obj [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o] ==> [C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o]
+        collapse library dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0] ==> [C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0]
+        collapse library dir [C:/mingw64/mingw64/bin/../lib/gcc] ==> [C:/mingw64/mingw64/lib/gcc]
+        collapse library dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/mingw64/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../lib] ==> [C:/mingw64/mingw64/lib]
+        collapse library dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/mingw64/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.3.0/../../..] ==> [C:/mingw64/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/mingw64/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/crtbegin.o;C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0/crtend.o]
+        implicit dirs: [C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.3.0;C:/mingw64/mingw64/lib/gcc;C:/mingw64/mingw64/x86_64-w64-mingw32/lib;C:/mingw64/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/mingw15.2/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-13.3.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64_stage/custombuilt --with-mpfr=/d/Prog/winlibs64_stage/custombuilt --with-gmp=/d/Prog/winlibs64_stage/custombuilt --with-isl=/d/Prog/winlibs64_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64_stage/gcc-13.3.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64_stage/custombuilt/share/binutils/bin/ld.exe" "--version"
+      
+...

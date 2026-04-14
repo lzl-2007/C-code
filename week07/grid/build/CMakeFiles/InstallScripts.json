@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/code/week07/grid/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

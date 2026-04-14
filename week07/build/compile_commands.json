@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/code/week07/build",
+  "command": "C:\\mingw64\\mingw64\\bin\\g++.exe   -g -std=c++23 fsanitize=address -o CMakeFiles\\grid.dir\\grid.cc.obj -c C:\\code\\week07\\grid.cc",
+  "file": "C:/code/week07/grid.cc",
+  "output": "CMakeFiles/grid.dir/grid.cc.obj"
+},
+{
+  "directory": "C:/code/week07/build",
+  "command": "C:\\mingw64\\mingw64\\bin\\g++.exe   -g -std=c++23 fsanitize=address -o CMakeFiles\\grid.dir\\grid_main.cc.obj -c C:\\code\\week07\\grid_main.cc",
+  "file": "C:/code/week07/grid_main.cc",
+  "output": "CMakeFiles/grid.dir/grid_main.cc.obj"
+}
+]

@@ -1,0 +1,3 @@
+C:/code/week07/build/CMakeFiles/grid.dir
+C:/code/week07/build/CMakeFiles/edit_cache.dir
+C:/code/week07/build/CMakeFiles/rebuild_cache.dir
