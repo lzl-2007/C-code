@@ -7,7 +7,7 @@ int *dangling(){
 void f(){
     int *p=dangling();
     std::cout<<*p<<std::endl;
-    //delete p;
+    delete p;
 }
 int main(){
     f();
