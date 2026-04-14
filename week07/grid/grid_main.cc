@@ -12,7 +12,7 @@ int main() {
 
     
     std::ofstream file{"output.txt"};
-    print(file, grid);
+    //print(file, grid);
     auto numbers = findEffectiveNumber(grid,file);
     auto  total = std::accumulate(numbers.begin(), numbers.end(), 0);
     file << "numbers size: " << numbers.size() << " total: " << total
