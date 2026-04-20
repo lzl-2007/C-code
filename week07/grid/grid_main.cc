@@ -11,7 +11,7 @@ int main() {
     grid = frameGrid(grid);
 
     
-    std::ofstream file{"output.txt"};
+    std::ofstream file{"output2.txt"};
     //print(file, grid);
     auto numbers = findEffectiveNumber(grid,file);
     auto  total = std::accumulate(numbers.begin(), numbers.end(), 0);

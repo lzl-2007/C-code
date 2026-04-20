@@ -2,12 +2,11 @@
 	"configurations" : 
 	[
 		{
-			"abstractTargets" : [],
 			"directories" : 
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.28"
@@ -40,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "grid::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-grid-Debug-8d0a4ec3473e8fb53031.json",
+					"jsonFile" : "target-grid-Debug-b6c8e28fd0cf608f8689.json",
 					"name" : "grid",
 					"projectIndex" : 0
 				}
@@ -56,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 7
 	}
 }

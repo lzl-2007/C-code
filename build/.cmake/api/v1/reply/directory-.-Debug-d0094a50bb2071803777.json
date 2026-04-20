@@ -5,15 +5,10 @@
 		"files" : [],
 		"nodes" : []
 	},
-	"codemodelVersion" : 
-	{
-		"major" : 2,
-		"minor" : 9
-	},
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "week02/ex01",
-		"source" : "week02/ex01"
+		"build" : ".",
+		"source" : "."
 	}
 }

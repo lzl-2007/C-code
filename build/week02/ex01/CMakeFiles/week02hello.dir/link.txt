@@ -1,3 +1,3 @@
-C:\mingw15.2\mingw64\bin\cmake.exe -E rm -f CMakeFiles\week02hello.dir/objects.a
+C:\mingw64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\week02hello.dir/objects.a
 C:\mingw64\mingw64\bin\ar.exe qc CMakeFiles\week02hello.dir/objects.a @CMakeFiles\week02hello.dir\objects1.rsp
 C:\mingw64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\week02hello.dir/objects.a -Wl,--no-whole-archive -o C:\code\week02\ex01\week02hello.exe -Wl,--out-implib,C:\code\week02\ex01\libweek02hello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\week02hello.dir\linkLibs.rsp

@@ -2,7 +2,6 @@
 	"configurations" : 
 	[
 		{
-			"abstractTargets" : [],
 			"directories" : 
 			[
 				{
@@ -12,7 +11,7 @@
 						1,
 						2
 					],
-					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -22,7 +21,7 @@
 				},
 				{
 					"build" : "week01/part1",
-					"jsonFile" : "directory-week01.part1-Debug-d6681fda8410c6b825db.json",
+					"jsonFile" : "directory-week01.part1-Debug-b0ed8747499d249fd506.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -37,7 +36,7 @@
 				},
 				{
 					"build" : "week02/ex01",
-					"jsonFile" : "directory-week02.ex01-Debug-6c877c83812d18ec9756.json",
+					"jsonFile" : "directory-week02.ex01-Debug-611a5b633d95d7ed4dab.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -90,21 +89,21 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "hello::@d29ed64ccdeaa080c6f2",
-					"jsonFile" : "target-hello-Debug-1aed8862f25cacf98f91.json",
+					"jsonFile" : "target-hello-Debug-1ca256917894937c6504.json",
 					"name" : "hello",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "main::@5d003d47dfa0901ed973",
-					"jsonFile" : "target-main-Debug-a825312f01a2bfbc551d.json",
+					"jsonFile" : "target-main-Debug-624cb8f42953f6f495d7.json",
 					"name" : "main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "week02hello::@5d003d47dfa0901ed973",
-					"jsonFile" : "target-week02hello-Debug-66962ca46800d6cfa2bc.json",
+					"jsonFile" : "target-week02hello-Debug-9489d677a8563f9588eb.json",
 					"name" : "week02hello",
 					"projectIndex" : 1
 				}
@@ -120,6 +119,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 7
 	}
 }

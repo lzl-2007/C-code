@@ -44,7 +44,7 @@ Grid frameGrid(Grid const &grid, char SEP) {//构造一个新的易于处理的g
     framed.push_back(std::string(max, SEP));    //第一行填充满占位符
     for (auto const &line : grid) {
         std::string new_line =
-            '.' + line + std::string(max - 2 - line.size(), ' ') + '.';//中间的行开始一个占位符，加上原本字符，不足的继续占位
+            '.' + line + std::string(max - 2 - line.size(), '.') + '.';//中间的行开始一个占位符，加上原本字符，不足的继续占位
         framed.push_back(new_line);
     }
     framed.push_back(std::string(max, SEP));//最后一行也占满
@@ -91,6 +91,17 @@ std::vector<unsigned> findEffectiveNumber(Grid const &grid,std::ostream &out){
                 }
             }
             
+        }
+        if (strnum.size()){              //末端处理，如果数字在最后
+            if(judge==1){
+                numbers.push_back(std::stoi(strnum));
+                out<<strnum<<"  ";
+                interval++;
+                if (interval%15==0)out<<'\n';
+                judge=0;
+                strnum="";
+            }
+            else strnum="";
         }
     }
     out<<'\n';
