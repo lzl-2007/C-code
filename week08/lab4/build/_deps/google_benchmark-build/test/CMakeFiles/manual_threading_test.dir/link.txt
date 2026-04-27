@@ -1,0 +1,3 @@
+C:\mingw64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\manual_threading_test.dir/objects.a
+C:\mingw64\mingw64\bin\ar.exe qc CMakeFiles\manual_threading_test.dir/objects.a @CMakeFiles\manual_threading_test.dir\objects1.rsp
+C:\mingw64\mingw64\bin\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable -g -Wl,--whole-archive CMakeFiles\manual_threading_test.dir/objects.a -Wl,--no-whole-archive -o manual_threading_test.exe -Wl,--out-implib,libmanual_threading_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\manual_threading_test.dir\linkLibs.rsp

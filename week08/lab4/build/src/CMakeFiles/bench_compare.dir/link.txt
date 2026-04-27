@@ -1,0 +1,3 @@
+C:\mingw64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\bench_compare.dir/objects.a
+C:\mingw64\mingw64\bin\ar.exe qc CMakeFiles\bench_compare.dir/objects.a @CMakeFiles\bench_compare.dir\objects1.rsp
+C:\mingw64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\bench_compare.dir/objects.a -Wl,--no-whole-archive -o bench_compare.exe -Wl,--out-implib,libbench_compare.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bench_compare.dir\linkLibs.rsp

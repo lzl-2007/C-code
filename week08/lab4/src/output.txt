@@ -1,0 +1,48 @@
+Benchmark                                   Time             CPU   Iterations
+-----------------------------------------------------------------------------
+BM_Stage1_CopyConstruction/64            2486 ns         2490 ns       263529
+BM_Stage1_CopyConstruction/512           2290 ns         2302 ns       298667
+BM_Stage1_CopyConstruction/4096          5326 ns         5301 ns       112000
+BM_Stage1_CopyConstruction/32768        26846 ns        27274 ns        26353
+BM_Stage1_CopyConstruction/262144      228805 ns       230164 ns         2987
+BM_Stage1_CopyConstruction/1048576     735873 ns       732422 ns          896
+BM_Stage2_MoveConstruction/64            1182 ns         1172 ns       560000
+BM_Stage2_MoveConstruction/512           1210 ns         1172 ns       560000
+BM_Stage2_MoveConstruction/4096          1325 ns         1318 ns       497778
+BM_Stage2_MoveConstruction/32768       130145 ns       128691 ns         4978
+BM_Stage2_MoveConstruction/262144      138236 ns       138108 ns         4978
+BM_Stage2_MoveConstruction/1048576     308001 ns       299944 ns         2240
+BM_Stage1_CopyAssignment/64               675 ns          645 ns       896000
+BM_Stage1_CopyAssignment/512              643 ns          642 ns      1120000
+BM_Stage1_CopyAssignment/4096            2427 ns         2459 ns       298667
+BM_Stage1_CopyAssignment/32768          69591 ns        69754 ns         8960
+BM_Stage1_CopyAssignment/262144         88312 ns        87887 ns         7467
+BM_Stage1_CopyAssignment/1048576       410826 ns       410156 ns         1600
+BM_Stage2_MoveAssignment/64               760 ns          767 ns       896000
+BM_Stage2_MoveAssignment/512              800 ns          802 ns       896000
+BM_Stage2_MoveAssignment/4096            2889 ns         2916 ns       235789
+BM_Stage2_MoveAssignment/32768         103252 ns       102534 ns         7467
+BM_Stage2_MoveAssignment/262144        113181 ns       114397 ns         5600
+BM_Stage2_MoveAssignment/1048576       349397 ns       344905 ns         1948
+BM_Stage1_VectorPushBack            138492260 ns    137500000 ns            5
+BM_Stage2_VectorPushBack             36150000 ns     36718750 ns           20
+BM_Stage2_CopyVsMove_Copy/64             2651 ns         2637 ns       248889
+BM_Stage2_CopyVsMove_Copy/512            2612 ns         2616 ns       298667
+BM_Stage2_CopyVsMove_Copy/4096           5992 ns         5999 ns       112000
+BM_Stage2_CopyVsMove_Copy/32768        403091 ns       401088 ns         1792
+BM_Stage2_CopyVsMove_Copy/262144       366629 ns       360947 ns         1948
+BM_Stage2_CopyVsMove_Copy/1048576      772702 ns       767299 ns          896
+BM_Stage2_CopyVsMove_Move/64             1286 ns         1283 ns       560000
+BM_Stage2_CopyVsMove_Move/512            4725 ns         3767 ns       497778
+BM_Stage2_CopyVsMove_Move/4096          10443 ns         8370 ns        74667
+BM_Stage2_CopyVsMove_Move/32768       1569552 ns      1220703 ns          640
+BM_Stage2_CopyVsMove_Move/262144      2083195 ns      1600151 ns          498
+BM_Stage2_CopyVsMove_Move/1048576     3696861 ns      2384538 ns          249
+
+测试项    阶段一时间        阶段二时间       性能提升
+构造1MB   735873 ns        308001 ns        2倍
+赋值1MB   410826 ns        349397 ns        1.2倍
+容器操作  138492260 ns     36150000 ns      3.8倍
+
+可以看出移动操作用时少于复制操作，空间开销可能难以通过小表格看出。
+可以看出复制操作时间开销大概与操作对象的数量呈现线性关系，从而说明复杂度为O(n)
