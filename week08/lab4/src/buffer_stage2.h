@@ -1,5 +1,5 @@
 #pragma once
-#include <cstddef>
+#include <cstddef>   //size_t类型需要这个包含
 #include <cstring>
 #include <utility>
 
@@ -19,12 +19,12 @@ public:
         std::memcpy(data_,other.data_,size_);
     }
 
-    friend void swap(GoodBufferStage2 &a,GoodBufferStage2 &b) noexcept{
+    friend void swap(GoodBufferStage2 &a,GoodBufferStage2 &b) noexcept{//需要多个类的私有数值，所以设置为友元函数
         std::swap(a.size_,b.size_);
         std::swap(a.data_,b.data_);
     }
     // TODO: 实现复制赋值操作符
-    GoodBufferStage2 &operator=(const GoodBufferStage2 &other)
+    GoodBufferStage2 &operator=(const GoodBufferStage2 &other)  //=运算符重载，起到赋值函数的作用
     {
         GoodBufferStage2 tem(other);
         swap(tem,*this);
@@ -47,7 +47,7 @@ public:
         if (&other==this){
             return *this;
         }
-        delete[] data_;
+        delete[] data_;     //直接释放待复制对象原本的内存
         size_=other.size_;
         data_=other.data_;
         other.size_=0;
