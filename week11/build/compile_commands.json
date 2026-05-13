@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/code/week11/build",
+  "command": "C:\\mingw64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\node.dir\\node.cc.obj -c C:\\code\\week11\\node.cc",
+  "file": "C:/code/week11/node.cc",
+  "output": "CMakeFiles/node.dir/node.cc.obj"
+}
+]
