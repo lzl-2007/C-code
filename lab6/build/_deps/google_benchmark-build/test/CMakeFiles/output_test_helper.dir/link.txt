@@ -1,0 +1,2 @@
+C:\mingw64\mingw64\bin\ar.exe qc liboutput_test_helper.a CMakeFiles/output_test_helper.dir/output_test_helper.cc.obj
+C:\mingw64\mingw64\bin\ranlib.exe liboutput_test_helper.a
